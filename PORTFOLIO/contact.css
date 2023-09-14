@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    /* background-color: pink; */
+    background: rgb(185,181,41);
+background: radial-gradient(circle, rgba(185,181,41,1) 0%, rgba(172,37,234,1) 100%);
+}
+.header{
+    display: flex;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    /* background-color: #94bbe9; */
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    box-shadow: 10px 5px 18px black;
+  
+}
+.brand{
+    margin-left: 50px;
+    margin-top: 36px;
+    font-size: x-large;
+  
+  }
+
+.navbar{
+  width: auto;
+margin-left: 50px;
+margin-top: -1px; 
+font-size: large;
+font-weight: bold;
+}
+.navbar{
+    display: flex;
+    margin-left: 745px;
+    margin-top: 35px;
+}
+.navbar > div{
+    color: black;
+    margin: 10px;
+    
+}
+.navbar > div a{
+    text-decoration: none;
+    color: black;
+}
+.header .navbar a:hover{
+    color: red;
+  font-size: small;
+}
+.navbar .claa {
+    color:	#800000;
+}
+
+
+/* footer's css */
+footer .footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    }
+    footer{
+        height: 350px;
+        background-color: white;
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+    footer .footer .footer-two{
+        width: 247px;
+      
+    }
+    footer .footer .footer-two ul li{
+        margin: 20px;
+        list-style-type: none;
+        padding-bottom: 10px;
+    }
+    footer .footer .footer-two ul li a{
+        text-decoration: none;
+        color: #800000;
+    }
+    footer .footer .footer-three ul li{
+        list-style-type: none;
+        margin: 10px;
+        margin-left: 25px;
+        
+    }
+    footer .footer .footer-three ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    footer .footer .footer-three ul li a:hover{
+        color: #800000;
+        font-size: larger;
+    }
+     footer .footer .footer-fourth input[type=email]{
+        margin: 10px;
+    
+    }
+    footer .footer .footer-fourth input[type=text]{
+        margin: 10px;
+    }
+    footer .footer .footer-fourth input[type=submit]{
+        margin: 10px;
+    }
+    footer .footer .footer-fourth input[type=email],input[type=text],input[type=submit]:hover{
+        box-shadow: 2px 2px 5px black;
+    }
+    footer .footer .footer-fourth input[type=email],input[type=text]{
+        border: 2px solid black;
+        border-radius: 5px ;
+        padding: 8px;
+    }
+    footer .footer .footer-fourth  input[type=submit]{
+        padding:5px ;
+        width: 100px;
+        border: 2px solid black;
+        border-radius: 5px ;
+         margin-left: 10px; 
+         font-weight: bold;
+         margin-left: 80px;
+         margin-top: 20px;
+         background-color: rgba(9, 236, 9, 0.788);
+    }
+    footer h3{
+        text-align: center;
+        margin-top: 35px;
+    }
+
+
+
+
+    .can{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        margin-top: 50px;
+        text-align: center;
+        height: 600px;
+        padding-top: 80px;
+    }
+    .can .can1{
+        margin-left: 100px;
+      
+       
+    }
+    .can .can1 ul{
+        display: flex;
+        margin-left: 90px;
+    }
+    .can .can1 ul li {
+        list-style-type: none;
+        margin: 10px;
+       font-size: xx-large;
+       padding-left: 20px;
+    }
+    .can .can1 ul li a:hover{
+        color: black;
+    }
+    .can .can1 p{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    /* .can .can2 form input[type=email]{ */
+        /* width: 220px; */
+    /* } */
+    .can .can2 form input[type=email]{
+        margin-left: 300px;
+        border: 2px solid black;
+        border-radius: 5px ;
+        padding: 8px;
+        width: 220px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    .can .can2 form input[type=text]{
+        margin-left: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+   .can .can2 form{
+   margin: 40px;
+    text-align: left;
+   }
+   .can .can2 form label{
+    margin-left: 300px;
+   }
+   .can .can2 form textarea{
+    height: 64px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+   }
+   .can .can2 form input[type=submit]{
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 360px;
+    margin-top: 30px;
+    background-color: rgb(28, 242, 17);
+   }
+  
